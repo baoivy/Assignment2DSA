@@ -1241,9 +1241,37 @@ delete s7;
 delete litStringHash;
 }
 
+void sthTest(){
+    HashConfig hashConfig(2, 0.5, 0.5, 0.75, 2, 4);
+    LitStringHash* litStringHash = new LitStringHash(hashConfig);
+
+    ReducedConcatStringTree* s1 = new ReducedConcatStringTree("This_i", litStringHash);
+    ReducedConcatStringTree* s2 = new ReducedConcatStringTree("This_i", litStringHash);
+    ReducedConcatStringTree* s3 = new ReducedConcatStringTree(s1->concat(*s2));
+    ReducedConcatStringTree* s4 = new ReducedConcatStringTree("an", litStringHash);
+    ReducedConcatStringTree* s5 = new ReducedConcatStringTree("You_Know_Who_I", litStringHash);
+    ReducedConcatStringTree* s6 = new ReducedConcatStringTree(s4->concat(*s5));
+    ReducedConcatStringTree* s7 = new ReducedConcatStringTree(s3->concat(*s6));
+    //ReducedConcatStringTree* s8 = new ReducedConcatStringTree(s1->concat(*s4));
+
+    cout << s1->getParTreeSize("") << endl;
+    cout << s1->getParTreeStringPreOrder("") << endl;
+    cout << s7->reverse().toString() << endl;
+
+    delete s3;
+    delete s2;
+    delete s1;
+    delete s6;
+    delete s5;
+    delete s4;
+    delete s7;
+    //delete s8;
+    delete litStringHash;
+}
+
 int main() {
     
     //_CrtSetDbgFlag(_CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF);
-    test();
+    tc9();
     return 0;
 }

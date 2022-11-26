@@ -1,8 +1,7 @@
 #include "ConcatStringTree.h"
 
-//ReducedConcatStringTree::LitStringHash litStringHash = ReducedConcatStringTree::LitStringHash();
-
-int keyGenerator() { //KeyGen
+//KeyGenerator
+int keyGenerator() { 
 	static int key = 0;
 	if (key > 1E7)
 		throw std::overflow_error("Id is overflow!");
@@ -16,7 +15,6 @@ ConcatStringTree::ConcatStringTree(const char* s) {
 	BSTNode* newNode = new BSTNode(tmp , 0);
 	this->root = newNode;
 	this->size = 1;
-	root->key = keyGenerator();
 	newNode->parent_node->insertNode(newNode);
 }
 
@@ -83,12 +81,8 @@ string ConcatStringTree::toString() const {
 }
 
 ConcatStringTree ConcatStringTree::concat(const ConcatStringTree& otherS) const {
-	BSTNode* newTree = new BSTNode();
-	newTree->left = root;
-	newTree->right = otherS.root;
+	BSTNode* newTree = new BSTNode("", root->lengthStr, root, otherS.root);
 	newTree->lengthStr = otherS.root->lengthStr + this->root->lengthStr;
-	newTree->leftLength = root->lengthStr;
-	newTree->key = keyGenerator();
 	newTree->parent_node->insertNode(newTree);
 	newTree->left->parent_node->insertNode(newTree);
 	newTree->right->parent_node->insertNode(newTree);
@@ -103,7 +97,6 @@ ConcatStringTree::BSTNode* ConcatStringTree::inOrderReverse(BSTNode* root) const
 			newRoot = new BSTNode(tmp, root->right->lengthStr);
 		else 
 			newRoot = new BSTNode(tmp, 0);
-		newRoot->key = keyGenerator();
 		newRoot->left = inOrderReverse(root->right);
 		newRoot->right = inOrderReverse(root->left);
 	}
@@ -126,7 +119,6 @@ ConcatStringTree::BSTNode* ConcatStringTree::preOrderSubString(BSTNode* root, in
 	}
 	else 
 		newRoot->data = root->data;
-	newRoot->key = keyGenerator();
 	if (from <= root->leftLength - 1) {
 		if (to <= root->leftLength - 1)
 			newRoot->left = preOrderSubString(root->left, from, to);
@@ -150,12 +142,20 @@ void ConcatStringTree::updateLeftL(BSTNode* root) const {
 	if (root != nullptr) {
 		updateLeftL(root->left);
 		updateLeftL(root->right);
+		//Update leftL
 		if (root->left != nullptr)
-			root->leftLength = root->left->data.length();
+			root->leftLength = root->left->lengthStr;
 		else
 			root->leftLength = 0;
-		if (root->left != nullptr && root->right != nullptr)
-			root->lengthStr = root->leftLength + root->right->data.length();
+		//Update length
+		if (root->left == nullptr && root->right == nullptr)
+			root->lengthStr = root->data.length();
+		else if(root->left != nullptr && root->right == nullptr)
+			root->lengthStr = root->left->lengthStr + root->right->lengthStr;
+		else if(root->left == nullptr && root->right != nullptr)
+			root->lengthStr = root->right->lengthStr;
+		else 
+			root->lengthStr = root->left->lengthStr;
 	}
 }
 
@@ -194,24 +194,8 @@ void ConcatStringTree::clearParents(BSTNode* root) {
 ConcatStringTree::~ConcatStringTree() {
 	if(root->numRef == 0)
 		root->parent_node->deleteNode(root);
-	if (root->parent_node->size() == 0) {
-		if (checkLeaf(root->left) && root->left->RCST == true && root->left == root->right) {
-			if (root->left->parent_node->size() == 1)
-				root->right = nullptr;
-		}
-		if (root->left != nullptr) {
-			root->left->parent_node->deleteNode(root);
-		}
-		if (root->right != nullptr) {
-			root->right->parent_node->deleteNode(root);
-		}
-		clearParents(root->left);
-		clearParents(root->right);
-		if (root->numRef == 0) {
-			delete root;
-			root = nullptr;
-		}
-	}
+	if (root->parent_node->size() == 0)
+		clearParents(root);
 }
 
 //Class implementation for ParentsTree
@@ -333,6 +317,7 @@ ConcatStringTree::ParentsTree::AVLNode* ConcatStringTree::ParentsTree::remove(AV
 	if (root == nullptr)
 		return root;
 
+	//Update Height
 	root->height = 1 + max(height(root->left),
 		height(root->right));
 	int balanceFactor = height(root->right) - height(root->left);
@@ -423,21 +408,6 @@ string ConcatStringTree::getParTreeStringPreOrder(const string& query) const {
 	return node->parent_node->toStringPreOrder();
 }
 
-void ConcatStringTree::ParentsTree::setNULLRecur(AVLNode* root, ConcatStringTree::BSTNode* node) {
-	if (root != nullptr) {
-		if (root->node->left == node)
-			root->node->left = nullptr;
-		if (root->node->right == node)
-			root->node->right = nullptr;
-		setNULLRecur(root->left, node);
-		setNULLRecur(root->right, node);
-	}
-}
-
-void ConcatStringTree::ParentsTree::setNULL(ConcatStringTree::BSTNode* node) {
-	setNULLRecur(root, node);
-}
-
 void ConcatStringTree::ParentsTree::clear(AVLNode* root) {
 	if (root != nullptr) {
 		clear(root->left);
@@ -460,6 +430,7 @@ LitStringHash::LitStringHash(const HashConfig& hashConfig) {
 	this->size = 0;
 	this->capacity = config.initSize;
 	this->idx_last = -1;
+	this->isDeleted = false;
 	for (int i = 0; i < capacity; i++) {
 		this->arr[i].node = nullptr;
 		this->arr[i].isEmpty = true;
@@ -474,8 +445,10 @@ int LitStringHash::hashFunc(string s, int size, int p) {
 }
 
 ConcatStringTree::BSTNode* LitStringHash::insertHash(string s) {
-	/**if (this->size == 0)
-		this->arr = new HashItem[this->config.initSize];*/ //Need to fix again
+	if (this->isDeleted == true){
+		this->arr = new HashItem[this->config.initSize];
+		this->isDeleted = false;
+	} //Need to fix again
 	int idx = hashFunc(s, config.initSize, config.p);
 	int i = 0;
 	while (this->arr[idx].isEmpty == false) {
@@ -492,7 +465,6 @@ ConcatStringTree::BSTNode* LitStringHash::insertHash(string s) {
 	}
 	this->arr[idx].node = new ConcatStringTree::BSTNode(s, 0);
 	ConcatStringTree::BSTNode* tmp_ptr = this->arr[idx].node;
-	this->arr[idx].node->key = keyGenerator();
 	this->arr[idx].node->numRef++;
 	this->arr[idx].isEmpty = false;
 	this->arr[idx].node->RCST = true;
@@ -526,14 +498,13 @@ void LitStringHash::deleteHash(ConcatStringTree::BSTNode* node) {
 	}
 	this->arr[idx].node->numRef--;
 	if (this->arr[idx].node->numRef == 0) {
-		//arr[idx].node->parent_node->setNULL(arr[idx].node);
-		//this->arr[idx].node = nullptr;
 		this->arr[idx].isEmpty = true;
 		this->size--;
 	}
 
 	if (this->size == 0) {
 		delete[] arr;
+		this->isDeleted = true;
 		this->arr = nullptr;
 		this->idx_last = -1;
 	}
@@ -583,10 +554,8 @@ string LitStringHash::toString() const {
 LitStringHash::~LitStringHash() {
 	if (this->arr != nullptr) {
 		for (int i = 0; i < capacity; i++) {
-			if (arr[i].isEmpty == false) {
-				delete arr[i].node->parent_node;
+			if (arr[i].isEmpty == false)
 				delete this->arr[i].node;
-			}
 		}
 		delete[] arr;
 	}
@@ -601,12 +570,8 @@ ReducedConcatStringTree::ReducedConcatStringTree(const char* s, LitStringHash*& 
 }
 
 ReducedConcatStringTree ReducedConcatStringTree::concat(ReducedConcatStringTree& otherS) {
-	BSTNode* newTree = new BSTNode();
-	newTree->left = root;
-	newTree->right = otherS.root;
+	BSTNode* newTree = new BSTNode("", this->root->leftLength, root, otherS.root);
 	newTree->lengthStr = otherS.root->lengthStr + this->root->lengthStr;
-	newTree->leftLength = this->root->lengthStr;
-	newTree->key = keyGenerator();
 	newTree->parent_node->insertNode(newTree);
 	newTree->left->parent_node->insertNode(newTree);
 	if(newTree->right != newTree->left)
@@ -615,10 +580,7 @@ ReducedConcatStringTree ReducedConcatStringTree::concat(ReducedConcatStringTree&
 }
 
 ReducedConcatStringTree::~ReducedConcatStringTree() {
-	if (root->data != "") {
+	if (root->data != "") 
 		this->litStringHash->deleteHash(root);
-		//root = nullptr;
-	}
-
 }
 
