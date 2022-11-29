@@ -1,0 +1,28 @@
+Success
+ConcatStringTree["FLNk00xb9AS"]
+11
+ConcatStringTree[(LL=0,L=11,"FLNk00xb9AS")]
+Index of string is invalid!
+Index of string is invalid!
+0
+b
+S
+Index of string is invalid!
+Index of string is invalid!
+-1
+-1
+-1
+-1
+-1
+-1
+0
+-1
+-1
+-1
+-1
+7
+-1
+9
+-1
+Object 0 has been deleted!
+litStringHash has been deleted!

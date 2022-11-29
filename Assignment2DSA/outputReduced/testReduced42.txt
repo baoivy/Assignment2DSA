@@ -1,0 +1,38 @@
+Success
+LitStringHash[();(litS="MNCbbqeyzj7VP");()]
+1
+Success
+LitStringHash[();(litS="MNCbbqeyzj7VP");(litS="MvgbeKT16")]
+2
+Success
+LitStringHash[();();();(litS="MvgbeKT16");();(litS="MNCbbqeyzj7VP");(litS="T3eLS");();();()]
+6
+Success
+LitStringHash[();();();(litS="MvgbeKT16");();(litS="MNCbbqeyzj7VP");(litS="T3eLS");();(litS="v");()]
+8
+Success
+LitStringHash[();(litS="mhhw4txzp6kcTbH6jUb");();(litS="MvgbeKT16");();(litS="MNCbbqeyzj7VP");(litS="T3eLS");();(litS="v");()]
+1
+Success
+LitStringHash[();(litS="mhhw4txzp6kcTbH6jUb");();(litS="MvgbeKT16");(litS="EnBQ1RaYR");(litS="MNCbbqeyzj7VP");(litS="T3eLS");();(litS="v");()]
+4
+Success
+LitStringHash[();(litS="mhhw4txzp6kcTbH6jUb");();(litS="MvgbeKT16");(litS="EnBQ1RaYR");(litS="MNCbbqeyzj7VP");(litS="T3eLS");(litS="gX1RFTe5P0zMVLbEBtb3");(litS="v");()]
+7
+Success
+LitStringHash[();(litS="mhhw4txzp6kcTbH6jUb");();(litS="MvgbeKT16");(litS="EnBQ1RaYR");(litS="MNCbbqeyzj7VP");(litS="T3eLS");(litS="gX1RFTe5P0zMVLbEBtb3");(litS="v");(litS="Qg9g")]
+9
+Success
+LitStringHash[();(litS="mhhw4txzp6kcTbH6jUb");(litS="X7EBoi");(litS="MvgbeKT16");(litS="EnBQ1RaYR");(litS="MNCbbqeyzj7VP");(litS="T3eLS");(litS="gX1RFTe5P0zMVLbEBtb3");(litS="v");(litS="Qg9g")]
+2
+No possible slot
+Object 8 has been deleted!
+Object 7 has been deleted!
+Object 6 has been deleted!
+Object 5 has been deleted!
+Object 4 has been deleted!
+Object 3 has been deleted!
+Object 2 has been deleted!
+Object 1 has been deleted!
+Object 0 has been deleted!
+litStringHash has been deleted!

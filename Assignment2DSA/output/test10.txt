@@ -1,0 +1,17 @@
+Success
+ConcatStringTree["y5u"]
+3
+ConcatStringTree[(LL=0,L=3,"y5u")]
+u
+Index of string is invalid!
+5
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+Object 0 has been deleted!

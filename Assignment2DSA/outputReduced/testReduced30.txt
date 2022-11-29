@@ -1,0 +1,24 @@
+Success
+ConcatStringTree["b8P"]
+3
+ConcatStringTree[(LL=0,L=3,"b8P")]
+8
+Index of string is invalid!
+P
+b
+Index of string is invalid!
+Index of string is invalid!
+8
+P
+Index of string is invalid!
+Index of string is invalid!
+Index of string is invalid!
+Index of string is invalid!
+8
+-1
+-1
+-1
+-1
+-1
+Object 0 has been deleted!
+litStringHash has been deleted!

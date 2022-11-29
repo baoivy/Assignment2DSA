@@ -1,0 +1,29 @@
+Success
+ConcatStringTree["BWfWqb"]
+6
+ConcatStringTree[(LL=0,L=6,"BWfWqb")]
+Index of string is invalid!
+W
+Index of string is invalid!
+W
+f
+Index of string is invalid!
+Index of string is invalid!
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Object 0 has been deleted!
+litStringHash has been deleted!

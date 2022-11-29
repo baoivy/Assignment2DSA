@@ -1,0 +1,35 @@
+HashConfig: 10 0.705679 0.237617 0.04944 1.59438 5
+init litStringHash
+RCST0 - init Muux5413M2DLPD8aywf
+RCST0 - toString
+RCST0 - length
+RCST0 - toStringPreOrder
+RCST0 - get 12
+RCST0 - get 19
+RCST0 - get 15
+RCST0 - get 14
+RCST0 - get 38
+RCST0 - get 7
+RCST0 - get 33
+RCST0 - get 3
+RCST0 - get 31
+RCST0 - get 3
+RCST0 - get 34
+RCST0 - get 26
+RCST0 - get 25
+RCST0 - get 19
+RCST0 - get 0
+RCST0 - get 29
+RCST0 - get 1
+RCST0 - get 23
+RCST0 - get 38
+RCST0 - get 2
+RCST0 - indexOf 1
+RCST0 - indexOf 7
+RCST0 - indexOf P
+RCST0 - indexOf u
+RCST0 - indexOf t
+RCST0 - indexOf S
+RCST0 - indexOf l
+RCST0 - delete
+litStringHash - delete

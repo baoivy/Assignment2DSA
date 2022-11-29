@@ -1,0 +1,33 @@
+Success
+ConcatStringTree["S2dtIC"]
+6
+ConcatStringTree[(LL=0,L=6,"S2dtIC")]
+I
+Index of string is invalid!
+Index of string is invalid!
+I
+t
+t
+2
+Index of string is invalid!
+Index of string is invalid!
+I
+Index of string is invalid!
+Index of string is invalid!
+C
+S
+Index of string is invalid!
+I
+t
+Index of string is invalid!
+Index of string is invalid!
+t
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Object 0 has been deleted!
+litStringHash has been deleted!

@@ -1,0 +1,23 @@
+Success
+ConcatStringTree["ZSEgzx8lIPK9"]
+12
+ConcatStringTree[(LL=0,L=12,"ZSEgzx8lIPK9")]
+Index of string is invalid!
+Index of string is invalid!
+x
+9
+-1
+-1
+2
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+9
+6
+-1
+Object 0 has been deleted!
+litStringHash has been deleted!

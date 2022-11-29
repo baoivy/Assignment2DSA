@@ -1,0 +1,8 @@
+HashConfig: 2 0.301431 0.693899 0.947813 1.0109 2
+init litStringHash
+RCST0 - init bXlobS
+litStringHash - toString
+litStringHash - getLastInsertedIndex
+RCST1 - init 4hvZfl5Jdj0chccA
+RCST0 - delete
+litStringHash - delete

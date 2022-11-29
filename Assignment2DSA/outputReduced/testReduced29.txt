@@ -1,0 +1,31 @@
+Success
+ConcatStringTree["mANH"]
+4
+ConcatStringTree[(LL=0,L=4,"mANH")]
+A
+Index of string is invalid!
+Index of string is invalid!
+Index of string is invalid!
+Index of string is invalid!
+A
+Index of string is invalid!
+N
+Index of string is invalid!
+Index of string is invalid!
+A
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+0
+-1
+-1
+Object 0 has been deleted!
+litStringHash has been deleted!

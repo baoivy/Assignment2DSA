@@ -1,0 +1,11 @@
+HashConfig: 6 0.334727 0.632771 0.549394 2.54344 6
+init litStringHash
+RCST0 - init oqAY4eZdibjPM
+RCST0 - toString
+RCST0 - length
+RCST0 - toStringPreOrder
+RCST0 - get 3
+RCST0 - get 2
+RCST0 - indexOf R
+RCST0 - delete
+litStringHash - delete

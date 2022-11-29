@@ -1,0 +1,26 @@
+CST0 - init zrckI
+CST0 - toString
+CST0 - length
+CST0 - toStringPreOrder
+CST0 - get 6
+CST0 - get 3
+CST0 - get 7
+CST0 - get 7
+CST0 - get 10
+CST0 - indexOf f
+CST0 - indexOf K
+CST0 - indexOf G
+CST0 - indexOf M
+CST0 - indexOf j
+CST0 - indexOf x
+CST0 - indexOf K
+CST0 - indexOf x
+CST0 - indexOf V
+CST0 - indexOf 9
+CST0 - indexOf R
+CST0 - indexOf C
+CST0 - indexOf f
+CST0 - indexOf T
+CST0 - indexOf M
+CST0 - indexOf 4
+CST0 - delete

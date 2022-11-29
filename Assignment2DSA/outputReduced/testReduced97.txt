@@ -1,0 +1,146 @@
+Success
+LitStringHash[();();();(litS="5d");();();()]
+3
+Success
+LitStringHash[(litS="J6hxLnZZH55");();();(litS="5d");();();()]
+0
+Success
+LitStringHash[(litS="J6hxLnZZH55");(litS="knl2cRoJojdEsny8WB5f");();(litS="5d");();();()]
+1
+Success
+LitStringHash[(litS="J6hxLnZZH55");(litS="knl2cRoJojdEsny8WB5f");();(litS="5d");(litS="QUxO9WnvrlNKNMM75Ar");();()]
+4
+Success
+LitStringHash[();(litS="knl2cRoJojdEsny8WB5f");();(litS="5d");();();();();();();();(litS="QUxO9WnvrlNKNMM75Ar");();();(litS="J6hxLnZZH55");();();();();(litS="9UrIRUesOjlFV74kH");()]
+19
+Success
+LitStringHash[();(litS="knl2cRoJojdEsny8WB5f");();(litS="5d");();();();();();();();(litS="QUxO9WnvrlNKNMM75Ar");();(litS="ztpkTTVXcSCw6PjEwJ");(litS="J6hxLnZZH55");();();();();(litS="9UrIRUesOjlFV74kH");()]
+13
+Success
+LitStringHash[();(litS="knl2cRoJojdEsny8WB5f");();(litS="5d");();();();();();();();(litS="QUxO9WnvrlNKNMM75Ar");();(litS="ztpkTTVXcSCw6PjEwJ");(litS="J6hxLnZZH55");();();(litS="z0VR5DvomsA");();(litS="9UrIRUesOjlFV74kH");()]
+17
+Success
+LitStringHash[();(litS="knl2cRoJojdEsny8WB5f");();(litS="5d");();();();();();();();(litS="QUxO9WnvrlNKNMM75Ar");();(litS="ztpkTTVXcSCw6PjEwJ");(litS="J6hxLnZZH55");(litS="3EBJqpgNzwuY");();(litS="z0VR5DvomsA");();(litS="9UrIRUesOjlFV74kH");()]
+15
+Success
+LitStringHash[();(litS="knl2cRoJojdEsny8WB5f");();(litS="5d");();();();();();(litS="K2G0pLbfPL4");();(litS="QUxO9WnvrlNKNMM75Ar");();(litS="ztpkTTVXcSCw6PjEwJ");(litS="J6hxLnZZH55");(litS="3EBJqpgNzwuY");();(litS="z0VR5DvomsA");();(litS="9UrIRUesOjlFV74kH");()]
+9
+Success
+LitStringHash[();(litS="knl2cRoJojdEsny8WB5f");();(litS="5d");();();();();();(litS="K2G0pLbfPL4");();(litS="QUxO9WnvrlNKNMM75Ar");();(litS="ztpkTTVXcSCw6PjEwJ");(litS="J6hxLnZZH55");(litS="3EBJqpgNzwuY");();(litS="z0VR5DvomsA");();(litS="9UrIRUesOjlFV74kH");(litS="sgJdZEo")]
+20
+Success
+LitStringHash[();(litS="knl2cRoJojdEsny8WB5f");();(litS="5d");(litS="YODeMH59KZ9gxMgSkvn");();();();();(litS="K2G0pLbfPL4");();(litS="QUxO9WnvrlNKNMM75Ar");();(litS="ztpkTTVXcSCw6PjEwJ");(litS="J6hxLnZZH55");(litS="3EBJqpgNzwuY");();(litS="z0VR5DvomsA");();(litS="9UrIRUesOjlFV74kH");(litS="sgJdZEo")]
+4
+Success
+ConcatStringTree["5dknl2cRoJojdEsny8WB5f"]
+ConcatStringTree[(LL=2,L=22,<NULL>);(LL=0,L=2,"5d");(LL=0,L=20,"knl2cRoJojdEsny8WB5f")]
+Success
+ConcatStringTree["QUxO9WnvrlNKNMM75ArsgJdZEo"]
+ConcatStringTree[(LL=19,L=26,<NULL>);(LL=0,L=19,"QUxO9WnvrlNKNMM75Ar");(LL=0,L=7,"sgJdZEo")]
+Success
+ConcatStringTree["9UrIRUesOjlFV74kHK2G0pLbfPL4"]
+ConcatStringTree[(LL=17,L=28,<NULL>);(LL=0,L=17,"9UrIRUesOjlFV74kH");(LL=0,L=11,"K2G0pLbfPL4")]
+Success
+ConcatStringTree["ztpkTTVXcSCw6PjEwJz0VR5DvomsA"]
+ConcatStringTree[(LL=18,L=29,<NULL>);(LL=0,L=18,"ztpkTTVXcSCw6PjEwJ");(LL=0,L=11,"z0VR5DvomsA")]
+Success
+ConcatStringTree["ztpkTTVXcSCw6PjEwJz0VR5DvomsA"]
+ConcatStringTree[(LL=18,L=29,<NULL>);(LL=0,L=18,"ztpkTTVXcSCw6PjEwJ");(LL=0,L=11,"z0VR5DvomsA")]
+Success
+ConcatStringTree["z0VR5DvomsAQUxO9WnvrlNKNMM75Ar"]
+ConcatStringTree[(LL=11,L=30,<NULL>);(LL=0,L=11,"z0VR5DvomsA");(LL=0,L=19,"QUxO9WnvrlNKNMM75Ar")]
+Success
+ConcatStringTree["knl2cRoJojdEsny8WB5fQUxO9WnvrlNKNMM75Ar"]
+ConcatStringTree[(LL=20,L=39,<NULL>);(LL=0,L=20,"knl2cRoJojdEsny8WB5f");(LL=0,L=19,"QUxO9WnvrlNKNMM75Ar")]
+Success
+ConcatStringTree["3EBJqpgNzwuY5d"]
+ConcatStringTree[(LL=12,L=14,<NULL>);(LL=0,L=12,"3EBJqpgNzwuY");(LL=0,L=2,"5d")]
+Success
+ConcatStringTree["9UrIRUesOjlFV74kHK2G0pLbfPL4"]
+ConcatStringTree[(LL=17,L=28,<NULL>);(LL=0,L=17,"9UrIRUesOjlFV74kH");(LL=0,L=11,"K2G0pLbfPL4")]
+Success
+ConcatStringTree["3EBJqpgNzwuYsgJdZEo"]
+ConcatStringTree[(LL=12,L=19,<NULL>);(LL=0,L=12,"3EBJqpgNzwuY");(LL=0,L=7,"sgJdZEo")]
+Success
+ConcatStringTree["K2G0pLbfPL43EBJqpgNzwuY"]
+ConcatStringTree[(LL=11,L=23,<NULL>);(LL=0,L=11,"K2G0pLbfPL4");(LL=0,L=12,"3EBJqpgNzwuY")]
+Success
+ConcatStringTree["5dJ6hxLnZZH55"]
+ConcatStringTree[(LL=2,L=13,<NULL>);(LL=0,L=2,"5d");(LL=0,L=11,"J6hxLnZZH55")]
+Success
+ConcatStringTree["K2G0pLbfPL49UrIRUesOjlFV74kH"]
+ConcatStringTree[(LL=11,L=28,<NULL>);(LL=0,L=11,"K2G0pLbfPL4");(LL=0,L=17,"9UrIRUesOjlFV74kH")]
+Success
+ConcatStringTree["9UrIRUesOjlFV74kHJ6hxLnZZH55"]
+ConcatStringTree[(LL=17,L=28,<NULL>);(LL=0,L=17,"9UrIRUesOjlFV74kH");(LL=0,L=11,"J6hxLnZZH55")]
+Success
+ConcatStringTree["z0VR5DvomsAsgJdZEo"]
+ConcatStringTree[(LL=11,L=18,<NULL>);(LL=0,L=11,"z0VR5DvomsA");(LL=0,L=7,"sgJdZEo")]
+Success
+ConcatStringTree["YODeMH59KZ9gxMgSkvn5d"]
+ConcatStringTree[(LL=19,L=21,<NULL>);(LL=0,L=19,"YODeMH59KZ9gxMgSkvn");(LL=0,L=2,"5d")]
+Invalid query: reaching NULL
+Invalid query: reaching NULL
+Invalid query: reaching NULL
+ParentsTree[(id=14);(id=5);(id=24);(id=20);(id=25)]
+Invalid query: reaching NULL
+Invalid query: reaching NULL
+Invalid query: reaching NULL
+Invalid query: reaching NULL
+5
+1
+Invalid query: reaching NULL
+3
+Invalid query: reaching NULL
+Invalid query: reaching NULL
+Invalid query: reaching NULL
+Invalid query: reaching NULL
+Invalid query: reaching NULL
+4
+Invalid query: reaching NULL
+Invalid query: reaching NULL
+Invalid query: reaching NULL
+ParentsTree[(id=23)]
+Invalid query: reaching NULL
+Invalid query: reaching NULL
+Invalid query: reaching NULL
+Invalid query: reaching NULL
+Invalid query: reaching NULL
+Invalid query: reaching NULL
+Invalid query: reaching NULL
+Invalid query: reaching NULL
+Invalid query: reaching NULL
+Invalid query: reaching NULL
+Invalid query: reaching NULL
+Invalid query: reaching NULL
+5
+4
+Don't need to delete object 27
+Object 26 has been deleted!
+Object 25 has been deleted!
+Object 24 has been deleted!
+Object 23 has been deleted!
+Object 22 has been deleted!
+Object 21 has been deleted!
+Object 20 has been deleted!
+Object 19 has been deleted!
+Object 18 has been deleted!
+Object 17 has been deleted!
+Object 16 has been deleted!
+Object 15 has been deleted!
+Object 14 has been deleted!
+Object 13 has been deleted!
+Object 12 has been deleted!
+Object 11 has been deleted!
+Object 10 has been deleted!
+Object 9 has been deleted!
+Object 8 has been deleted!
+Object 7 has been deleted!
+Object 6 has been deleted!
+Object 5 has been deleted!
+Object 4 has been deleted!
+Object 3 has been deleted!
+Object 2 has been deleted!
+Object 1 has been deleted!
+Object 0 has been deleted!
+litStringHash has been deleted!

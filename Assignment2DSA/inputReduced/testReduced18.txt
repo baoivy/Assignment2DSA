@@ -1,0 +1,30 @@
+HashConfig: 3 0.214393 0.618519 0.307291 1.50191 5
+init litStringHash
+RCST0 - init FLNk00xb9AS
+RCST0 - toString
+RCST0 - length
+RCST0 - toStringPreOrder
+RCST0 - get 11
+RCST0 - get 17
+RCST0 - get 4
+RCST0 - get 7
+RCST0 - get 10
+RCST0 - get 16
+RCST0 - get 17
+RCST0 - indexOf G
+RCST0 - indexOf o
+RCST0 - indexOf i
+RCST0 - indexOf M
+RCST0 - indexOf 7
+RCST0 - indexOf e
+RCST0 - indexOf F
+RCST0 - indexOf 3
+RCST0 - indexOf G
+RCST0 - indexOf t
+RCST0 - indexOf z
+RCST0 - indexOf b
+RCST0 - indexOf 4
+RCST0 - indexOf A
+RCST0 - indexOf E
+RCST0 - delete
+litStringHash - delete

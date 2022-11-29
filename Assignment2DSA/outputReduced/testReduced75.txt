@@ -1,0 +1,46 @@
+Success
+LitStringHash[();();();();();();(litS="WhZzMt9Lch325tx92Few")]
+6
+Success
+LitStringHash[();();();(litS="sy5lvDlTdQ");();();(litS="WhZzMt9Lch325tx92Few")]
+3
+Success
+LitStringHash[();();(litS="c9kVY");(litS="sy5lvDlTdQ");();();(litS="WhZzMt9Lch325tx92Few")]
+2
+Success
+LitStringHash[();();(litS="c9kVY");(litS="sy5lvDlTdQ");(litS="WB8ayq0fMmq6mxOFx");();(litS="WhZzMt9Lch325tx92Few")]
+4
+Success
+LitStringHash[(litS="KBQMzcNqKgxAhcCMLmL");();(litS="c9kVY");(litS="sy5lvDlTdQ");(litS="WB8ayq0fMmq6mxOFx");();(litS="WhZzMt9Lch325tx92Few")]
+0
+Success
+LitStringHash[(litS="KBQMzcNqKgxAhcCMLmL");(litS="2T92");(litS="c9kVY");(litS="sy5lvDlTdQ");(litS="WB8ayq0fMmq6mxOFx");();(litS="WhZzMt9Lch325tx92Few")]
+1
+Success
+LitStringHash[(litS="2T92");(litS="sy5lvDlTdQ");(litS="U3uPiqeYRIiRvC1cT");(litS="KBQMzcNqKgxAhcCMLmL");();();(litS="WhZzMt9Lch325tx92Few");(litS="WB8ayq0fMmq6mxOFx");(litS="c9kVY")]
+2
+Success
+LitStringHash[(litS="2T92");(litS="sy5lvDlTdQ");(litS="U3uPiqeYRIiRvC1cT");(litS="KBQMzcNqKgxAhcCMLmL");(litS="kocUBMhy6Swov");();(litS="WhZzMt9Lch325tx92Few");(litS="WB8ayq0fMmq6mxOFx");(litS="c9kVY")]
+4
+Success
+LitStringHash[();(litS="kocUBMhy6Swov");();(litS="U3uPiqeYRIiRvC1cT");(litS="KBQMzcNqKgxAhcCMLmL");(litS="sy5lvDlTdQ");(litS="2T92");(litS="G1SdO58pLT79tR");(litS="WhZzMt9Lch325tx92Few");(litS="WB8ayq0fMmq6mxOFx");(litS="c9kVY");()]
+7
+Success
+LitStringHash[(litS="X");(litS="kocUBMhy6Swov");();(litS="U3uPiqeYRIiRvC1cT");(litS="KBQMzcNqKgxAhcCMLmL");(litS="sy5lvDlTdQ");(litS="2T92");(litS="G1SdO58pLT79tR");(litS="WhZzMt9Lch325tx92Few");(litS="WB8ayq0fMmq6mxOFx");(litS="c9kVY");()]
+0
+Success
+LitStringHash[(litS="X");(litS="kocUBMhy6Swov");();(litS="U3uPiqeYRIiRvC1cT");(litS="KBQMzcNqKgxAhcCMLmL");(litS="sy5lvDlTdQ");(litS="2T92");(litS="G1SdO58pLT79tR");(litS="WhZzMt9Lch325tx92Few");(litS="WB8ayq0fMmq6mxOFx");(litS="c9kVY");(litS="ZgB")]
+11
+No possible slot
+Object 10 has been deleted!
+Object 9 has been deleted!
+Object 8 has been deleted!
+Object 7 has been deleted!
+Object 6 has been deleted!
+Object 5 has been deleted!
+Object 4 has been deleted!
+Object 3 has been deleted!
+Object 2 has been deleted!
+Object 1 has been deleted!
+Object 0 has been deleted!
+litStringHash has been deleted!

@@ -1,0 +1,21 @@
+Success
+ConcatStringTree["rlQuM"]
+5
+ConcatStringTree[(LL=0,L=5,"rlQuM")]
+l
+r
+r
+Index of string is invalid!
+M
+u
+u
+r
+Index of string is invalid!
+Index of string is invalid!
+Index of string is invalid!
+M
+-1
+-1
+-1
+Object 0 has been deleted!
+litStringHash has been deleted!

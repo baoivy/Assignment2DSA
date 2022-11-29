@@ -1,0 +1,28 @@
+Success
+ConcatStringTree["dF8ALakb7brY40O"]
+15
+ConcatStringTree[(LL=0,L=15,"dF8ALakb7brY40O")]
+Index of string is invalid!
+Index of string is invalid!
+Index of string is invalid!
+8
+L
+Index of string is invalid!
+Index of string is invalid!
+F
+A
+Index of string is invalid!
+Y
+4
+4
+Index of string is invalid!
+r
+A
+-1
+-1
+-1
+-1
+-1
+-1
+1
+Object 0 has been deleted!

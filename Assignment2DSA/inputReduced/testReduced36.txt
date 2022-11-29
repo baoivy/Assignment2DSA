@@ -1,0 +1,16 @@
+HashConfig: 7 0.247078 0.000579852 0.948271 2.906 6
+init litStringHash
+RCST0 - init xbWuUr3de0Q
+litStringHash - toString
+litStringHash - getLastInsertedIndex
+RCST1 - init d0l2Anisuf
+litStringHash - toString
+litStringHash - getLastInsertedIndex
+RCST2 - init b79
+litStringHash - toString
+litStringHash - getLastInsertedIndex
+RCST3 - init X8Vax4jwO7
+RCST2 - delete
+RCST1 - delete
+RCST0 - delete
+litStringHash - delete

@@ -1,0 +1,17 @@
+Success
+ConcatStringTree["zJP"]
+3
+ConcatStringTree[(LL=0,L=3,"zJP")]
+z
+Index of string is invalid!
+Index of string is invalid!
+Index of string is invalid!
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Object 0 has been deleted!

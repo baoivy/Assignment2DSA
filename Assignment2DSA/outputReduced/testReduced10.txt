@@ -1,0 +1,31 @@
+Success
+ConcatStringTree["kf"]
+2
+ConcatStringTree[(LL=0,L=2,"kf")]
+k
+f
+f
+Index of string is invalid!
+k
+Index of string is invalid!
+Index of string is invalid!
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+0
+Object 0 has been deleted!
+litStringHash has been deleted!

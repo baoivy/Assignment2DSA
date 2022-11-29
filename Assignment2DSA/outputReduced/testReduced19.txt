@@ -1,0 +1,35 @@
+Success
+ConcatStringTree["PJsprZDHd7V6k1peJ1"]
+18
+ConcatStringTree[(LL=0,L=18,"PJsprZDHd7V6k1peJ1")]
+1
+Index of string is invalid!
+Index of string is invalid!
+Index of string is invalid!
+Index of string is invalid!
+Index of string is invalid!
+Index of string is invalid!
+6
+1
+Z
+V
+7
+Index of string is invalid!
+Index of string is invalid!
+V
+Index of string is invalid!
+7
+Index of string is invalid!
+Index of string is invalid!
+10
+-1
+-1
+-1
+-1
+-1
+7
+-1
+-1
+-1
+Object 0 has been deleted!
+litStringHash has been deleted!

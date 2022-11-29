@@ -1,0 +1,13 @@
+HashConfig: 3 0.87814 0.594867 0.802759 2.90948 9
+init litStringHash
+RCST0 - init p6OK25Ld4e
+RCST0 - toString
+RCST0 - length
+RCST0 - toStringPreOrder
+RCST0 - get 20
+RCST0 - get 8
+RCST0 - get 20
+RCST0 - indexOf v
+RCST0 - indexOf j
+RCST0 - delete
+litStringHash - delete

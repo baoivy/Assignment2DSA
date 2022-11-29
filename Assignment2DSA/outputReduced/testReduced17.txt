@@ -1,0 +1,26 @@
+Success
+ConcatStringTree["C"]
+1
+ConcatStringTree[(LL=0,L=1,"C")]
+Index of string is invalid!
+C
+C
+Index of string is invalid!
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Object 0 has been deleted!
+litStringHash has been deleted!

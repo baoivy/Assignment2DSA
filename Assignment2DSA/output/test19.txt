@@ -1,0 +1,21 @@
+Success
+ConcatStringTree["3yPqtzLeFZU"]
+11
+ConcatStringTree[(LL=0,L=11,"3yPqtzLeFZU")]
+Index of string is invalid!
+z
+-1
+-1
+-1
+5
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Object 0 has been deleted!

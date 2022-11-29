@@ -1,0 +1,26 @@
+Success
+ConcatStringTree["zrckI"]
+5
+ConcatStringTree[(LL=0,L=5,"zrckI")]
+Index of string is invalid!
+k
+Index of string is invalid!
+Index of string is invalid!
+Index of string is invalid!
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Object 0 has been deleted!

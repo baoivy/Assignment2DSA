@@ -1,0 +1,14 @@
+Success
+LitStringHash[(litS="9TehfaRtFsNkCnF1WbF");()]
+0
+Success
+LitStringHash[();(litS="AwZi");(litS="9TehfaRtFsNkCnF1WbF")]
+1
+Success
+LitStringHash[(litS="9TehfaRtFsNkCnF1WbF");(litS="6qtana");();(litS="AwZi")]
+1
+No possible slot
+Object 2 has been deleted!
+Object 1 has been deleted!
+Object 0 has been deleted!
+litStringHash has been deleted!

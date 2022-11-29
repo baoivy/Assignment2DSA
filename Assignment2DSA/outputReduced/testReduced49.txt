@@ -1,0 +1,38 @@
+Success
+LitStringHash[();();();();();();();(litS="MT3Dxk");();()]
+7
+Success
+LitStringHash[(litS="cH3Bh5CJAkRL");();();();();();();(litS="MT3Dxk");();()]
+0
+Success
+LitStringHash[(litS="cH3Bh5CJAkRL");();();();(litS="zUyBodBNGlQfRCNEE");();();(litS="MT3Dxk");();()]
+4
+Success
+LitStringHash[(litS="cH3Bh5CJAkRL");();();();(litS="zUyBodBNGlQfRCNEE");(litS="DrnlixzKWZz7YZkzLY5e");();(litS="MT3Dxk");();()]
+5
+Success
+LitStringHash[(litS="cH3Bh5CJAkRL");();(litS="yETWr6zS");();(litS="zUyBodBNGlQfRCNEE");(litS="DrnlixzKWZz7YZkzLY5e");();(litS="MT3Dxk");();()]
+2
+Success
+LitStringHash[(litS="cH3Bh5CJAkRL");();(litS="yETWr6zS");(litS="C7Iij");(litS="zUyBodBNGlQfRCNEE");(litS="DrnlixzKWZz7YZkzLY5e");();(litS="MT3Dxk");();()]
+3
+Success
+LitStringHash[(litS="cH3Bh5CJAkRL");();(litS="yETWr6zS");(litS="C7Iij");(litS="zUyBodBNGlQfRCNEE");(litS="DrnlixzKWZz7YZkzLY5e");(litS="OPN8McJBsxnys");(litS="MT3Dxk");();()]
+6
+Success
+LitStringHash[(litS="cH3Bh5CJAkRL");();(litS="yETWr6zS");(litS="C7Iij");(litS="zUyBodBNGlQfRCNEE");(litS="DrnlixzKWZz7YZkzLY5e");(litS="OPN8McJBsxnys");(litS="MT3Dxk");(litS="RMG");()]
+8
+Success
+LitStringHash[(litS="DrnlixzKWZz7YZkzLY5e");(litS="cH3Bh5CJAkRL");(litS="MT3Dxk");(litS="C7Iij");(litS="zUyBodBNGlQfRCNEE");(litS="OPN8McJBsxnys");();(litS="udhTScAI");(litS="yETWr6zS");();(litS="RMG")]
+7
+No possible slot
+Object 8 has been deleted!
+Object 7 has been deleted!
+Object 6 has been deleted!
+Object 5 has been deleted!
+Object 4 has been deleted!
+Object 3 has been deleted!
+Object 2 has been deleted!
+Object 1 has been deleted!
+Object 0 has been deleted!
+litStringHash has been deleted!

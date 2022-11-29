@@ -1,0 +1,30 @@
+Success
+ConcatStringTree["RfLY"]
+4
+ConcatStringTree[(LL=0,L=4,"RfLY")]
+Index of string is invalid!
+L
+Index of string is invalid!
+Y
+-1
+-1
+1
+-1
+-1
+-1
+-1
+0
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+3
+Object 0 has been deleted!
+litStringHash has been deleted!

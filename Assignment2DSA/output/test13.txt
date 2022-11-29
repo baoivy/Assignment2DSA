@@ -1,0 +1,20 @@
+Success
+ConcatStringTree["qxDY1i"]
+6
+ConcatStringTree[(LL=0,L=6,"qxDY1i")]
+Index of string is invalid!
+Y
+Index of string is invalid!
+Index of string is invalid!
+Index of string is invalid!
+i
+Index of string is invalid!
+1
+Index of string is invalid!
+x
+Index of string is invalid!
+-1
+-1
+5
+-1
+Object 0 has been deleted!

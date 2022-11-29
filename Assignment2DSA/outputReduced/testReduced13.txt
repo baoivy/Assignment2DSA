@@ -1,0 +1,33 @@
+Success
+ConcatStringTree["4xA"]
+3
+ConcatStringTree[(LL=0,L=3,"4xA")]
+Index of string is invalid!
+x
+Index of string is invalid!
+Index of string is invalid!
+4
+Index of string is invalid!
+x
+Index of string is invalid!
+A
+Index of string is invalid!
+Index of string is invalid!
+-1
+-1
+2
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Object 0 has been deleted!
+litStringHash has been deleted!

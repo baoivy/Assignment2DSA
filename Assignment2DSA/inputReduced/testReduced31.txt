@@ -1,0 +1,12 @@
+HashConfig: 2 0.0259102 0.0638447 0.587359 3.90112 4
+init litStringHash
+RCST0 - init gbisPymj
+litStringHash - toString
+litStringHash - getLastInsertedIndex
+RCST1 - init JSY
+litStringHash - toString
+litStringHash - getLastInsertedIndex
+RCST2 - init qs4BV
+RCST1 - delete
+RCST0 - delete
+litStringHash - delete

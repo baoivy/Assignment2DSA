@@ -1,0 +1,45 @@
+Success
+ConcatStringTree["n9qeAXPcNS"]
+10
+ConcatStringTree[(LL=0,L=10,"n9qeAXPcNS")]
+Index of string is invalid!
+9
+q
+Index of string is invalid!
+Index of string is invalid!
+q
+n
+P
+c
+e
+n
+Index of string is invalid!
+q
+Index of string is invalid!
+X
+e
+Index of string is invalid!
+Index of string is invalid!
+Index of string is invalid!
+-1
+-1
+1
+-1
+-1
+-1
+-1
+4
+-1
+-1
+-1
+2
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Object 0 has been deleted!
+litStringHash has been deleted!

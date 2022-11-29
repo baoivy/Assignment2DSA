@@ -1,0 +1,24 @@
+Success
+ConcatStringTree["UtKaaT9"]
+7
+ConcatStringTree[(LL=0,L=7,"UtKaaT9")]
+Index of string is invalid!
+Index of string is invalid!
+Index of string is invalid!
+Index of string is invalid!
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+5
+-1
+Object 0 has been deleted!

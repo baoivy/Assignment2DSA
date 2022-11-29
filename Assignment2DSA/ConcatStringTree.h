@@ -18,7 +18,7 @@ protected:
     //Method for BST Tree
     void preOrderString(BSTNode* root, string& ) const;
     void inOrdertoString(BSTNode* root, string& ) const;
-    BSTNode* inOrderReverse(BSTNode* root) const;
+    BSTNode* preOrderReverse(BSTNode* root) const;
     BSTNode* preOrderSubString(BSTNode* root, int from, int to) const;
     void updateLeftL(BSTNode* root) const;
     void clearParents(BSTNode* root);
@@ -147,7 +147,6 @@ private:
     int hashFunc(string s, int, int);
     void reHash();
     ConcatStringTree::BSTNode* insertHash(string s);
-    ConcatStringTree::BSTNode* searchHash(string s);
     void deleteHash(ConcatStringTree::BSTNode* node);
     friend class ReducedConcatStringTree;
 
@@ -178,8 +177,8 @@ public:
     }
     ReducedConcatStringTree(const char* s, LitStringHash*& litStringHash);
     ReducedConcatStringTree concat(ReducedConcatStringTree& otherS);
-    //ReducedConcatStringTree reverse();
-    //ReducedConcatStringTree subString(int from, int to);
+    ReducedConcatStringTree reverse();
+    ReducedConcatStringTree subString(int from, int to);
     ~ReducedConcatStringTree();
 };
 

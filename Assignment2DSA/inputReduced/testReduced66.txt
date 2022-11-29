@@ -1,0 +1,36 @@
+HashConfig: 10 0.497177 0.743767 0.824732 2.38258 10
+init litStringHash
+RCST0 - init 0kvr
+litStringHash - toString
+litStringHash - getLastInsertedIndex
+RCST1 - init xzVVMmd
+litStringHash - toString
+litStringHash - getLastInsertedIndex
+RCST2 - init cm060WA62EFkX
+litStringHash - toString
+litStringHash - getLastInsertedIndex
+RCST3 - init 0K7eq9W
+litStringHash - toString
+litStringHash - getLastInsertedIndex
+RCST4 - init dbF0R8xX8DTwNpBvr
+litStringHash - toString
+litStringHash - getLastInsertedIndex
+RCST5 - init QoWVforjNlzB
+litStringHash - toString
+litStringHash - getLastInsertedIndex
+RCST6 - init Lpi
+litStringHash - toString
+litStringHash - getLastInsertedIndex
+RCST7 - init XL
+litStringHash - toString
+litStringHash - getLastInsertedIndex
+RCST8 - init DT3xDa
+RCST7 - delete
+RCST6 - delete
+RCST5 - delete
+RCST4 - delete
+RCST3 - delete
+RCST2 - delete
+RCST1 - delete
+RCST0 - delete
+litStringHash - delete

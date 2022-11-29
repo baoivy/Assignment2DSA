@@ -4,7 +4,8 @@
 #include <iostream>
 #include <sstream>
 #include <string>
-
+#include <vector>
+#include <fstream>
 /*#define _CRTDBG_MAP_ALLOC
 #include <stdlib.h>
 #include <crtdbg.h>*/

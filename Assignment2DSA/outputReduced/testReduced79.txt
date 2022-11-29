@@ -1,0 +1,18 @@
+Success
+LitStringHash[(litS="P29A91aOqRA");()]
+0
+Success
+LitStringHash[();(litS="gs7D");();();(litS="P29A91aOqRA")]
+1
+Success
+LitStringHash[();(litS="gs7D");(litS="i2CfUyiaK5dk9qx");();(litS="P29A91aOqRA")]
+2
+Success
+LitStringHash[();(litS="gs7D");(litS="i2CfUyiaK5dk9qx");(litS="2FajS7");(litS="P29A91aOqRA")]
+3
+No possible slot
+Object 3 has been deleted!
+Object 2 has been deleted!
+Object 1 has been deleted!
+Object 0 has been deleted!
+litStringHash has been deleted!

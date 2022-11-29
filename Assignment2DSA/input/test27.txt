@@ -1,0 +1,17 @@
+CST0 - init zJP
+CST0 - toString
+CST0 - length
+CST0 - toStringPreOrder
+CST0 - get 0
+CST0 - get 6
+CST0 - get 5
+CST0 - get 5
+CST0 - indexOf K
+CST0 - indexOf i
+CST0 - indexOf i
+CST0 - indexOf f
+CST0 - indexOf K
+CST0 - indexOf I
+CST0 - indexOf 6
+CST0 - indexOf V
+CST0 - delete

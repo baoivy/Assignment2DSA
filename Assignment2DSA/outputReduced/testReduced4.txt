@@ -1,0 +1,43 @@
+Success
+ConcatStringTree["3ZLcqJbd"]
+8
+ConcatStringTree[(LL=0,L=8,"3ZLcqJbd")]
+Index of string is invalid!
+3
+Index of string is invalid!
+q
+Index of string is invalid!
+Index of string is invalid!
+Index of string is invalid!
+Index of string is invalid!
+c
+J
+3
+Index of string is invalid!
+Index of string is invalid!
+c
+Index of string is invalid!
+3
+Index of string is invalid!
+1
+-1
+-1
+5
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+6
+Object 0 has been deleted!
+litStringHash has been deleted!

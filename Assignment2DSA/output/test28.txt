@@ -1,0 +1,35 @@
+Success
+ConcatStringTree["w2nOJOmJNAh"]
+11
+ConcatStringTree[(LL=0,L=11,"w2nOJOmJNAh")]
+J
+N
+Index of string is invalid!
+m
+w
+Index of string is invalid!
+J
+Index of string is invalid!
+Index of string is invalid!
+N
+Index of string is invalid!
+J
+Index of string is invalid!
+Index of string is invalid!
+A
+-1
+-1
+-1
+8
+-1
+-1
+2
+-1
+-1
+-1
+4
+-1
+-1
+-1
+-1
+Object 0 has been deleted!

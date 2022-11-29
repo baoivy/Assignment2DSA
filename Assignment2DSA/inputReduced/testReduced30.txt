@@ -1,0 +1,26 @@
+HashConfig: 5 0.437819 0.477004 0.570727 3.67708 8
+init litStringHash
+RCST0 - init b8P
+RCST0 - toString
+RCST0 - length
+RCST0 - toStringPreOrder
+RCST0 - get 1
+RCST0 - get 5
+RCST0 - get 2
+RCST0 - get 0
+RCST0 - get 4
+RCST0 - get 3
+RCST0 - get 1
+RCST0 - get 2
+RCST0 - get 5
+RCST0 - get 4
+RCST0 - get 6
+RCST0 - get 5
+RCST0 - get 1
+RCST0 - indexOf 3
+RCST0 - indexOf W
+RCST0 - indexOf f
+RCST0 - indexOf g
+RCST0 - indexOf I
+RCST0 - delete
+litStringHash - delete

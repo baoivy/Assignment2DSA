@@ -1,0 +1,24 @@
+HashConfig: 7 0.616657 0.496414 0.437696 1.27036 9
+init litStringHash
+RCST0 - init cy15oRIB
+RCST0 - toString
+RCST0 - length
+RCST0 - toStringPreOrder
+RCST0 - get 6
+RCST0 - get 12
+RCST0 - get 15
+RCST0 - get 8
+RCST0 - get 6
+RCST0 - get 5
+RCST0 - get 16
+RCST0 - get 16
+RCST0 - get 8
+RCST0 - get 14
+RCST0 - get 6
+RCST0 - get 4
+RCST0 - indexOf l
+RCST0 - indexOf Z
+RCST0 - indexOf f
+RCST0 - indexOf A
+RCST0 - delete
+litStringHash - delete

@@ -1,0 +1,22 @@
+Success
+ConcatStringTree["cy15oRIB"]
+8
+ConcatStringTree[(LL=0,L=8,"cy15oRIB")]
+I
+Index of string is invalid!
+Index of string is invalid!
+Index of string is invalid!
+I
+R
+Index of string is invalid!
+Index of string is invalid!
+Index of string is invalid!
+Index of string is invalid!
+I
+o
+-1
+-1
+-1
+-1
+Object 0 has been deleted!
+litStringHash has been deleted!

@@ -1,0 +1,34 @@
+Success
+LitStringHash[();();();();();();();();(litS="0kvr");()]
+8
+Success
+LitStringHash[(litS="xzVVMmd");();();();();();();();(litS="0kvr");()]
+0
+Success
+LitStringHash[(litS="xzVVMmd");();();();();();();();(litS="0kvr");(litS="cm060WA62EFkX")]
+9
+Success
+LitStringHash[(litS="xzVVMmd");(litS="0K7eq9W");();();();();();();(litS="0kvr");(litS="cm060WA62EFkX")]
+1
+Success
+LitStringHash[(litS="xzVVMmd");(litS="0K7eq9W");();(litS="dbF0R8xX8DTwNpBvr");();();();();(litS="0kvr");(litS="cm060WA62EFkX")]
+3
+Success
+LitStringHash[(litS="xzVVMmd");(litS="0K7eq9W");(litS="QoWVforjNlzB");(litS="dbF0R8xX8DTwNpBvr");();();();();(litS="0kvr");(litS="cm060WA62EFkX")]
+2
+Success
+LitStringHash[(litS="xzVVMmd");(litS="0K7eq9W");(litS="QoWVforjNlzB");(litS="dbF0R8xX8DTwNpBvr");();();(litS="Lpi");();(litS="0kvr");(litS="cm060WA62EFkX")]
+6
+Success
+LitStringHash[(litS="xzVVMmd");(litS="0K7eq9W");(litS="QoWVforjNlzB");(litS="dbF0R8xX8DTwNpBvr");();();(litS="Lpi");(litS="XL");(litS="0kvr");(litS="cm060WA62EFkX")]
+7
+No possible slot
+Object 7 has been deleted!
+Object 6 has been deleted!
+Object 5 has been deleted!
+Object 4 has been deleted!
+Object 3 has been deleted!
+Object 2 has been deleted!
+Object 1 has been deleted!
+Object 0 has been deleted!
+litStringHash has been deleted!

@@ -1,0 +1,34 @@
+Success
+ConcatStringTree["LSHIf2"]
+6
+ConcatStringTree[(LL=0,L=6,"LSHIf2")]
+Index of string is invalid!
+H
+Index of string is invalid!
+Index of string is invalid!
+S
+f
+Index of string is invalid!
+I
+Index of string is invalid!
+Index of string is invalid!
+S
+Index of string is invalid!
+0
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+Object 0 has been deleted!
+litStringHash has been deleted!

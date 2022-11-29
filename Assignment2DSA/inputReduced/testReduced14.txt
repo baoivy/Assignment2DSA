@@ -1,0 +1,31 @@
+HashConfig: 3 0.877621 0.891659 0.954039 2.1926 5
+init litStringHash
+RCST0 - init R0Bub8SP
+RCST0 - toString
+RCST0 - length
+RCST0 - toStringPreOrder
+RCST0 - get 10
+RCST0 - get 9
+RCST0 - get 8
+RCST0 - get 1
+RCST0 - get 6
+RCST0 - get 6
+RCST0 - get 8
+RCST0 - get 5
+RCST0 - get 0
+RCST0 - get 12
+RCST0 - get 13
+RCST0 - indexOf s
+RCST0 - indexOf B
+RCST0 - indexOf T
+RCST0 - indexOf y
+RCST0 - indexOf j
+RCST0 - indexOf f
+RCST0 - indexOf q
+RCST0 - indexOf C
+RCST0 - indexOf s
+RCST0 - indexOf p
+RCST0 - indexOf a
+RCST0 - indexOf Q
+RCST0 - delete
+litStringHash - delete

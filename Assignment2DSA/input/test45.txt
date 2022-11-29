@@ -1,0 +1,780 @@
+CST0 - init M78uaPDD1bH4vhm
+CST1 - init mc5rr
+CST2 - init 787XL8cQ1tkGd
+CST3 - init 5UL
+CST4 - init ii5Z
+CST5 - init lbshtD
+CST6 - init sSoJarAtCAv5iOeCplk
+CST7 - init fngu
+CST8 - init PgqNuxuPC9
+CST9 - init RKefHNJ9VhtT
+CST10 - init h7Z
+CST11 - init Afc6lq7J3byn
+CST12 - init naVN
+CST13 - init a0Vtr3PQ8Bsk
+CST14 - init xDbRFcTY
+CST15 - init Rvc9JW66Yf
+CST16 - init RBV3u
+CST17 - init TP8swSS8Oh
+CST18 - init SNN0A9Gw9CgbDGySbB
+CST19 - init 2Ui2kZIelDz
+CST20 - init u6C80RTm3QBNqAvOmJ
+CST21 - init N3bq
+CST22 - init pV
+CST23 - init 8vaxZrLMWI
+CST24 - init 6E
+CST25 - init irE6xBeuvtOo0dzo
+CST26 - init QWUJRNEZzXuLQ1VMA
+CST27 - init yKtUCYfPUVMR2jdQz
+CST28 - init o
+CST29 - init WBGhJnN
+CST30 - init MbpEAQKtUOqD2SUGm
+CST31 - init RlCxClj59NOzLr
+CST32 - init F4RxWMchR2MEf
+CST33 - init TH5c
+CST34 - init 9w
+CST35 - init 4yGthFdKoaxKq
+CST36 - init BYnodvGbqXB474
+CST37 - init fre
+CST38 - init gPvfH7OGPRssBPUUfDB3
+CST39 - init fDlkSF1z4MehCXCmBJL
+CST40 - init m4lvBig
+CST41 - init C2se
+CST42 - init eOzGBEf4k4EUZ
+CST43 - init 7oo3mtUlkl0ZHko
+CST44 - init aJM
+CST45 - init 8CQnqCy3heBMsJNB
+CST46 - init m9ZvW2Hwa7JSPkyGTib
+CST47 - init i
+CST48 - init hNO
+CST49 - init wQJD3RSQ
+CST50 - init Xb2BxHBnjl8z4Zdowa
+CST51 - init xABe0OuIB7xvhDUgvuJ
+CST52 - init 4vm
+concat: 53 48 44
+CST53 - toString
+CST53 - toStringPreOrder
+concat: 54 17 37
+CST54 - toString
+CST54 - toStringPreOrder
+concat: 55 51 1
+CST55 - toString
+CST55 - toStringPreOrder
+concat: 56 7 9
+CST56 - toString
+CST56 - toStringPreOrder
+concat: 57 27 33
+CST57 - toString
+CST57 - toStringPreOrder
+concat: 58 47 7
+CST58 - toString
+CST58 - toStringPreOrder
+concat: 59 8 4
+CST59 - toString
+CST59 - toStringPreOrder
+concat: 60 12 26
+CST60 - toString
+CST60 - toStringPreOrder
+concat: 61 17 11
+CST61 - toString
+CST61 - toStringPreOrder
+concat: 62 21 5
+CST62 - toString
+CST62 - toStringPreOrder
+concat: 63 13 8
+CST63 - toString
+CST63 - toStringPreOrder
+concat: 64 17 51
+CST64 - toString
+CST64 - toStringPreOrder
+concat: 65 9 48
+CST65 - toString
+CST65 - toStringPreOrder
+concat: 66 30 8
+CST66 - toString
+CST66 - toStringPreOrder
+concat: 67 25 45
+CST67 - toString
+CST67 - toStringPreOrder
+concat: 68 26 43
+CST68 - toString
+CST68 - toStringPreOrder
+concat: 69 40 42
+CST69 - toString
+CST69 - toStringPreOrder
+concat: 70 15 3
+CST70 - toString
+CST70 - toStringPreOrder
+concat: 71 41 46
+CST71 - toString
+CST71 - toStringPreOrder
+concat: 72 48 21
+CST72 - toString
+CST72 - toStringPreOrder
+concat: 73 22 12
+CST73 - toString
+CST73 - toStringPreOrder
+concat: 74 31 29
+CST74 - toString
+CST74 - toStringPreOrder
+concat: 75 16 14
+CST75 - toString
+CST75 - toStringPreOrder
+concat: 76 7 35
+CST76 - toString
+CST76 - toStringPreOrder
+concat: 77 30 48
+CST77 - toString
+CST77 - toStringPreOrder
+concat: 78 16 28
+CST78 - toString
+CST78 - toStringPreOrder
+concat: 79 51 1
+CST79 - toString
+CST79 - toStringPreOrder
+concat: 80 27 36
+CST80 - toString
+CST80 - toStringPreOrder
+concat: 81 4 22
+CST81 - toString
+CST81 - toStringPreOrder
+concat: 82 24 19
+CST82 - toString
+CST82 - toStringPreOrder
+concat: 83 4 37
+CST83 - toString
+CST83 - toStringPreOrder
+concat: 84 34 17
+CST84 - toString
+CST84 - toStringPreOrder
+concat: 85 12 1
+CST85 - toString
+CST85 - toStringPreOrder
+concat: 86 10 33
+CST86 - toString
+CST86 - toStringPreOrder
+concat: 87 16 29
+CST87 - toString
+CST87 - toStringPreOrder
+subString: 88 40 7 0
+subString: 89 8 9 10
+CST89 - toString
+CST89 - toStringPreOrder
+reverse: 90 11
+CST90 - toString
+CST90 - toStringPreOrder
+reverse: 91 25
+CST91 - toString
+CST91 - toStringPreOrder
+reverse: 92 34
+CST92 - toString
+CST92 - toStringPreOrder
+reverse: 93 28
+CST93 - toString
+CST93 - toStringPreOrder
+reverse: 94 27
+CST94 - toString
+CST94 - toStringPreOrder
+reverse: 95 75
+CST95 - toString
+CST95 - toStringPreOrder
+reverse: 96 38
+CST96 - toString
+CST96 - toStringPreOrder
+reverse: 97 50
+CST97 - toString
+CST97 - toStringPreOrder
+reverse: 98 82
+CST98 - toString
+CST98 - toStringPreOrder
+reverse: 99 64
+CST99 - toString
+CST99 - toStringPreOrder
+reverse: 100 43
+CST100 - toString
+CST100 - toStringPreOrder
+reverse: 101 13
+CST101 - toString
+CST101 - toStringPreOrder
+reverse: 102 28
+CST102 - toString
+CST102 - toStringPreOrder
+reverse: 103 62
+CST103 - toString
+CST103 - toStringPreOrder
+reverse: 104 39
+CST104 - toString
+CST104 - toStringPreOrder
+reverse: 105 35
+CST105 - toString
+CST105 - toStringPreOrder
+reverse: 106 8
+CST106 - toString
+CST106 - toStringPreOrder
+reverse: 107 73
+CST107 - toString
+CST107 - toStringPreOrder
+reverse: 108 98
+CST108 - toString
+CST108 - toStringPreOrder
+reverse: 109 99
+CST109 - toString
+CST109 - toStringPreOrder
+reverse: 110 55
+CST110 - toString
+CST110 - toStringPreOrder
+reverse: 111 45
+CST111 - toString
+CST111 - toStringPreOrder
+reverse: 112 93
+CST112 - toString
+CST112 - toStringPreOrder
+reverse: 113 49
+CST113 - toString
+CST113 - toStringPreOrder
+reverse: 114 104
+CST114 - toString
+CST114 - toStringPreOrder
+reverse: 115 80
+CST115 - toString
+CST115 - toStringPreOrder
+reverse: 116 109
+CST116 - toString
+CST116 - toStringPreOrder
+reverse: 117 40
+CST117 - toString
+CST117 - toStringPreOrder
+reverse: 118 16
+CST118 - toString
+CST118 - toStringPreOrder
+reverse: 119 77
+CST119 - toString
+CST119 - toStringPreOrder
+reverse: 120 43
+CST120 - toString
+CST120 - toStringPreOrder
+reverse: 121 89
+CST121 - toString
+CST121 - toStringPreOrder
+reverse: 122 36
+CST122 - toString
+CST122 - toStringPreOrder
+reverse: 123 105
+CST123 - toString
+CST123 - toStringPreOrder
+reverse: 124 75
+CST124 - toString
+CST124 - toStringPreOrder
+reverse: 125 73
+CST125 - toString
+CST125 - toStringPreOrder
+reverse: 126 112
+CST126 - toString
+CST126 - toStringPreOrder
+reverse: 127 1
+CST127 - toString
+CST127 - toStringPreOrder
+reverse: 128 70
+CST128 - toString
+CST128 - toStringPreOrder
+reverse: 129 75
+CST129 - toString
+CST129 - toStringPreOrder
+reverse: 130 112
+CST130 - toString
+CST130 - toStringPreOrder
+reverse: 131 118
+CST131 - toString
+CST131 - toStringPreOrder
+reverse: 132 13
+CST132 - toString
+CST132 - toStringPreOrder
+reverse: 133 65
+CST133 - toString
+CST133 - toStringPreOrder
+reverse: 134 39
+CST134 - toString
+CST134 - toStringPreOrder
+reverse: 135 82
+CST135 - toString
+CST135 - toStringPreOrder
+reverse: 136 6
+CST136 - toString
+CST136 - toStringPreOrder
+reverse: 137 5
+CST137 - toString
+CST137 - toStringPreOrder
+reverse: 138 110
+CST138 - toString
+CST138 - toStringPreOrder
+reverse: 139 131
+CST139 - toString
+CST139 - toStringPreOrder
+reverse: 140 84
+CST140 - toString
+CST140 - toStringPreOrder
+reverse: 141 65
+CST141 - toString
+CST141 - toStringPreOrder
+reverse: 142 18
+CST142 - toString
+CST142 - toStringPreOrder
+reverse: 143 95
+CST143 - toString
+CST143 - toStringPreOrder
+reverse: 144 74
+CST144 - toString
+CST144 - toStringPreOrder
+reverse: 145 42
+CST145 - toString
+CST145 - toStringPreOrder
+reverse: 146 51
+CST146 - toString
+CST146 - toStringPreOrder
+reverse: 147 10
+CST147 - toString
+CST147 - toStringPreOrder
+reverse: 148 4
+CST148 - toString
+CST148 - toStringPreOrder
+reverse: 149 14
+CST149 - toString
+CST149 - toStringPreOrder
+reverse: 150 0
+CST150 - toString
+CST150 - toStringPreOrder
+reverse: 151 73
+CST151 - toString
+CST151 - toStringPreOrder
+reverse: 152 49
+CST152 - toString
+CST152 - toStringPreOrder
+reverse: 153 81
+CST153 - toString
+CST153 - toStringPreOrder
+reverse: 154 12
+CST154 - toString
+CST154 - toStringPreOrder
+reverse: 155 130
+CST155 - toString
+CST155 - toStringPreOrder
+reverse: 156 32
+CST156 - toString
+CST156 - toStringPreOrder
+reverse: 157 30
+CST157 - toString
+CST157 - toStringPreOrder
+reverse: 158 56
+CST158 - toString
+CST158 - toStringPreOrder
+reverse: 159 112
+CST159 - toString
+CST159 - toStringPreOrder
+reverse: 160 82
+CST160 - toString
+CST160 - toStringPreOrder
+reverse: 161 125
+CST161 - toString
+CST161 - toStringPreOrder
+reverse: 162 137
+CST162 - toString
+CST162 - toStringPreOrder
+reverse: 163 102
+CST163 - toString
+CST163 - toStringPreOrder
+reverse: 164 91
+CST164 - toString
+CST164 - toStringPreOrder
+reverse: 165 147
+CST165 - toString
+CST165 - toStringPreOrder
+reverse: 166 118
+CST166 - toString
+CST166 - toStringPreOrder
+reverse: 167 26
+CST167 - toString
+CST167 - toStringPreOrder
+reverse: 168 69
+CST168 - toString
+CST168 - toStringPreOrder
+reverse: 169 147
+CST169 - toString
+CST169 - toStringPreOrder
+reverse: 170 6
+CST170 - toString
+CST170 - toStringPreOrder
+reverse: 171 142
+CST171 - toString
+CST171 - toStringPreOrder
+reverse: 172 5
+CST172 - toString
+CST172 - toStringPreOrder
+reverse: 173 108
+CST173 - toString
+CST173 - toStringPreOrder
+reverse: 174 114
+CST174 - toString
+CST174 - toStringPreOrder
+reverse: 175 172
+CST175 - toString
+CST175 - toStringPreOrder
+reverse: 176 8
+CST176 - toString
+CST176 - toStringPreOrder
+reverse: 177 139
+CST177 - toString
+CST177 - toStringPreOrder
+reverse: 178 85
+CST178 - toString
+CST178 - toStringPreOrder
+reverse: 179 48
+CST179 - toString
+CST179 - toStringPreOrder
+reverse: 180 89
+CST180 - toString
+CST180 - toStringPreOrder
+reverse: 181 173
+CST181 - toString
+CST181 - toStringPreOrder
+reverse: 182 171
+CST182 - toString
+CST182 - toStringPreOrder
+reverse: 183 67
+CST183 - toString
+CST183 - toStringPreOrder
+reverse: 184 43
+CST184 - toString
+CST184 - toStringPreOrder
+reverse: 185 177
+CST185 - toString
+CST185 - toStringPreOrder
+reverse: 186 111
+CST186 - toString
+CST186 - toStringPreOrder
+reverse: 187 99
+CST187 - toString
+CST187 - toStringPreOrder
+reverse: 188 185
+CST188 - toString
+CST188 - toStringPreOrder
+reverse: 189 59
+CST189 - toString
+CST189 - toStringPreOrder
+reverse: 190 6
+CST190 - toString
+CST190 - toStringPreOrder
+reverse: 191 149
+CST191 - toString
+CST191 - toStringPreOrder
+reverse: 192 19
+CST192 - toString
+CST192 - toStringPreOrder
+reverse: 193 159
+CST193 - toString
+CST193 - toStringPreOrder
+reverse: 194 114
+CST194 - toString
+CST194 - toStringPreOrder
+reverse: 195 181
+CST195 - toString
+CST195 - toStringPreOrder
+reverse: 196 140
+CST196 - toString
+CST196 - toStringPreOrder
+reverse: 197 41
+CST197 - toString
+CST197 - toStringPreOrder
+reverse: 198 182
+CST198 - toString
+CST198 - toStringPreOrder
+reverse: 199 121
+CST199 - toString
+CST199 - toStringPreOrder
+reverse: 200 131
+CST200 - toString
+CST200 - toStringPreOrder
+reverse: 201 148
+CST201 - toString
+CST201 - toStringPreOrder
+reverse: 202 20
+CST202 - toString
+CST202 - toStringPreOrder
+reverse: 203 55
+CST203 - toString
+CST203 - toStringPreOrder
+reverse: 204 167
+CST204 - toString
+CST204 - toStringPreOrder
+reverse: 205 132
+CST205 - toString
+CST205 - toStringPreOrder
+reverse: 206 72
+CST206 - toString
+CST206 - toStringPreOrder
+reverse: 207 119
+CST207 - toString
+CST207 - toStringPreOrder
+reverse: 208 110
+CST208 - toString
+CST208 - toStringPreOrder
+reverse: 209 174
+CST209 - toString
+CST209 - toStringPreOrder
+reverse: 210 202
+CST210 - toString
+CST210 - toStringPreOrder
+reverse: 211 96
+CST211 - toString
+CST211 - toStringPreOrder
+reverse: 212 191
+CST212 - toString
+CST212 - toStringPreOrder
+reverse: 213 83
+CST213 - toString
+CST213 - toStringPreOrder
+CST55 - getParTreeStringPreOrder lrrr
+CST14 - getParTreeStringPreOrder rlll
+CST51 - getParTreeStringPreOrder rrrlrlll
+CST40 - getParTreeStringPreOrder rllrrlrl
+CST83 - getParTreeSize rlllrrlrr
+CST7 - getParTreeSize 
+CST51 - getParTreeSize rlrlrlll
+CST56 - getParTreeSize rr
+CST53 - getParTreeSize rlrlrr
+CST45 - getParTreeStringPreOrder rlllllllr
+CST18 - getParTreeSize llrlrl
+CST19 - getParTreeStringPreOrder l
+CST25 - getParTreeSize lrllllrlr
+CST21 - getParTreeStringPreOrder l
+CST52 - getParTreeStringPreOrder 
+CST16 - getParTreeSize rlll
+CST48 - getParTreeSize lllr
+CST84 - getParTreeStringPreOrder l
+CST48 - getParTreeStringPreOrder r
+CST28 - getParTreeSize r
+CST6 - getParTreeSize 
+CST79 - getParTreeStringPreOrder lrrllrl
+CST60 - getParTreeSize 
+CST30 - getParTreeStringPreOrder rlrrrrl
+CST76 - getParTreeSize rlrrl
+CST83 - getParTreeSize l
+CST38 - getParTreeSize lr
+CST1 - getParTreeSize rlrrrlrlr
+CST68 - getParTreeSize rrlrllll
+CST42 - getParTreeStringPreOrder rlllll
+CST65 - getParTreeSize llrrll
+CST214 - delete
+CST213 - delete
+CST212 - delete
+CST211 - delete
+CST210 - delete
+CST209 - delete
+CST208 - delete
+CST207 - delete
+CST206 - delete
+CST205 - delete
+CST204 - delete
+CST203 - delete
+CST202 - delete
+CST201 - delete
+CST200 - delete
+CST199 - delete
+CST198 - delete
+CST197 - delete
+CST196 - delete
+CST195 - delete
+CST194 - delete
+CST193 - delete
+CST192 - delete
+CST191 - delete
+CST190 - delete
+CST189 - delete
+CST188 - delete
+CST187 - delete
+CST186 - delete
+CST185 - delete
+CST184 - delete
+CST183 - delete
+CST182 - delete
+CST181 - delete
+CST180 - delete
+CST179 - delete
+CST178 - delete
+CST177 - delete
+CST176 - delete
+CST175 - delete
+CST174 - delete
+CST173 - delete
+CST172 - delete
+CST171 - delete
+CST170 - delete
+CST169 - delete
+CST168 - delete
+CST167 - delete
+CST166 - delete
+CST165 - delete
+CST164 - delete
+CST163 - delete
+CST162 - delete
+CST161 - delete
+CST160 - delete
+CST159 - delete
+CST158 - delete
+CST157 - delete
+CST156 - delete
+CST155 - delete
+CST154 - delete
+CST153 - delete
+CST152 - delete
+CST151 - delete
+CST150 - delete
+CST149 - delete
+CST148 - delete
+CST147 - delete
+CST146 - delete
+CST145 - delete
+CST144 - delete
+CST143 - delete
+CST142 - delete
+CST141 - delete
+CST140 - delete
+CST139 - delete
+CST138 - delete
+CST137 - delete
+CST136 - delete
+CST135 - delete
+CST134 - delete
+CST133 - delete
+CST132 - delete
+CST131 - delete
+CST130 - delete
+CST129 - delete
+CST128 - delete
+CST127 - delete
+CST126 - delete
+CST125 - delete
+CST124 - delete
+CST123 - delete
+CST122 - delete
+CST121 - delete
+CST120 - delete
+CST119 - delete
+CST118 - delete
+CST117 - delete
+CST116 - delete
+CST115 - delete
+CST114 - delete
+CST113 - delete
+CST112 - delete
+CST111 - delete
+CST110 - delete
+CST109 - delete
+CST108 - delete
+CST107 - delete
+CST106 - delete
+CST105 - delete
+CST104 - delete
+CST103 - delete
+CST102 - delete
+CST101 - delete
+CST100 - delete
+CST99 - delete
+CST98 - delete
+CST97 - delete
+CST96 - delete
+CST95 - delete
+CST94 - delete
+CST93 - delete
+CST92 - delete
+CST91 - delete
+CST90 - delete
+CST89 - delete
+CST88 - delete
+CST87 - delete
+CST86 - delete
+CST85 - delete
+CST84 - delete
+CST83 - delete
+CST82 - delete
+CST81 - delete
+CST80 - delete
+CST79 - delete
+CST78 - delete
+CST77 - delete
+CST76 - delete
+CST75 - delete
+CST74 - delete
+CST73 - delete
+CST72 - delete
+CST71 - delete
+CST70 - delete
+CST69 - delete
+CST68 - delete
+CST67 - delete
+CST66 - delete
+CST65 - delete
+CST64 - delete
+CST63 - delete
+CST62 - delete
+CST61 - delete
+CST60 - delete
+CST59 - delete
+CST58 - delete
+CST57 - delete
+CST56 - delete
+CST55 - delete
+CST54 - delete
+CST53 - delete
+CST52 - delete
+CST51 - delete
+CST50 - delete
+CST49 - delete
+CST48 - delete
+CST47 - delete
+CST46 - delete
+CST45 - delete
+CST44 - delete
+CST43 - delete
+CST42 - delete
+CST41 - delete
+CST40 - delete
+CST39 - delete
+CST38 - delete
+CST37 - delete
+CST36 - delete
+CST35 - delete
+CST34 - delete
+CST33 - delete
+CST32 - delete
+CST31 - delete
+CST30 - delete
+CST29 - delete
+CST28 - delete
+CST27 - delete
+CST26 - delete
+CST25 - delete
+CST24 - delete
+CST23 - delete
+CST22 - delete
+CST21 - delete
+CST20 - delete
+CST19 - delete
+CST18 - delete
+CST17 - delete
+CST16 - delete
+CST15 - delete
+CST14 - delete
+CST13 - delete
+CST12 - delete
+CST11 - delete
+CST10 - delete
+CST9 - delete
+CST8 - delete
+CST7 - delete
+CST6 - delete
+CST5 - delete
+CST4 - delete
+CST3 - delete
+CST2 - delete
+CST1 - delete
+CST0 - delete
