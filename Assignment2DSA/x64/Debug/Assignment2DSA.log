@@ -1,8 +1,8 @@
 ﻿  main.cpp
 C:\Users\Bao\source\repos\Assignment2DSA\Assignment2DSA\main.cpp(27,37): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Bao\source\repos\Assignment2DSA\Assignment2DSA\main.cpp(107,54): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Bao\source\repos\Assignment2DSA\Assignment2DSA\main.cpp(147,36): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Bao\source\repos\Assignment2DSA\Assignment2DSA\main.cpp(252,37): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Bao\source\repos\Assignment2DSA\Assignment2DSA\main.cpp(382,58): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Bao\source\repos\Assignment2DSA\Assignment2DSA\main.cpp(430,36): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Bao\source\repos\Assignment2DSA\Assignment2DSA\main.cpp(108,54): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Bao\source\repos\Assignment2DSA\Assignment2DSA\main.cpp(148,36): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Bao\source\repos\Assignment2DSA\Assignment2DSA\main.cpp(253,37): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Bao\source\repos\Assignment2DSA\Assignment2DSA\main.cpp(384,58): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Bao\source\repos\Assignment2DSA\Assignment2DSA\main.cpp(432,36): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
   Assignment2DSA.vcxproj -> C:\Users\Bao\source\repos\Assignment2DSA\x64\Debug\Assignment2DSA.exe

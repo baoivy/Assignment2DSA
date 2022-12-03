@@ -2,7 +2,6 @@
 
 //KeyGenerator
 int keyGenerator() {
-	static int key = 1;
 	if (key > 1E7)
 		throw std::overflow_error("Id is overflow!");
 	return key++;
@@ -12,7 +11,7 @@ int keyGenerator() {
 ConcatStringTree::ConcatStringTree(const char* s) {
 	string tmp;
 	stringstream ss(s); getline(ss, tmp);
-	BSTNode* newNode = new BSTNode(tmp , 0);
+	BSTNode* newNode = new BSTNode(tmp, 0);
 	this->root = newNode;
 	this->size = 1;
 	newNode->parent_node->insertNode(newNode);
@@ -23,7 +22,7 @@ int ConcatStringTree::length() const {
 }
 
 char ConcatStringTree::get(int index) {
-	if(index < 0 || index >= root->lengthStr)
+	if (index < 0 || index >= root->lengthStr)
 		throw std::out_of_range("Index of string is invalid!");
 	BSTNode* node = root;
 	while (node != nullptr) {
@@ -39,7 +38,7 @@ char ConcatStringTree::get(int index) {
 	return node->data[index];
 }
 
-void ConcatStringTree::inOrdertoString(BSTNode* root, string &data) const {
+void ConcatStringTree::inOrdertoString(BSTNode* root, string& data) const {
 	if (root != nullptr) {
 		inOrdertoString(root->left, data);
 		if (root->left == nullptr && root->right == nullptr)
@@ -54,7 +53,7 @@ int ConcatStringTree::indexOf(char c) {
 	return res.find(c);
 }
 
-void ConcatStringTree::preOrderString(BSTNode* root, string &res) const{
+void ConcatStringTree::preOrderString(BSTNode* root, string& res) const {
 	if (root != nullptr) {
 		res += "(LL=" + to_string(root->leftLength); res += ",";
 		res += "L=" + to_string(root->lengthStr); res += ",";
@@ -90,13 +89,13 @@ ConcatStringTree ConcatStringTree::concat(const ConcatStringTree& otherS) const 
 }
 
 ConcatStringTree::BSTNode* ConcatStringTree::preOrderReverse(BSTNode* root) const {
-	if(root == nullptr)
+	if (root == nullptr)
 		return nullptr;
 	BSTNode* newRoot = new BSTNode();
 	newRoot->data = string(root->data.rbegin(), root->data.rend());
-	if(root->right != nullptr)
+	if (root->right != nullptr)
 		newRoot->leftLength = root->right->lengthStr;
-	else 
+	else
 		newRoot->leftLength = 0;
 	newRoot->left = preOrderReverse(root->right);
 	newRoot->right = preOrderReverse(root->left);
@@ -118,7 +117,7 @@ ConcatStringTree::BSTNode* ConcatStringTree::preOrderSubString(BSTNode* root, in
 		newRoot->data = root->data.substr(from, to - from);
 		newRoot->lengthStr = newRoot->data.length();
 	}
-	else 
+	else
 		newRoot->data = root->data;
 	if (from <= root->leftLength - 1) {
 		if (to <= root->leftLength - 1)
@@ -151,11 +150,11 @@ void ConcatStringTree::updateLeftL(BSTNode* root) const {
 		//Update length
 		if (root->left == nullptr && root->right == nullptr)
 			root->lengthStr = root->data.length();
-		else if(root->left != nullptr && root->right != nullptr)
+		else if (root->left != nullptr && root->right != nullptr)
 			root->lengthStr = root->left->lengthStr + root->right->lengthStr;
-		else if(root->left == nullptr && root->right != nullptr)
+		else if (root->left == nullptr && root->right != nullptr)
 			root->lengthStr = root->right->lengthStr;
-		else 
+		else
 			root->lengthStr = root->left->lengthStr;
 	}
 }
@@ -171,34 +170,27 @@ ConcatStringTree ConcatStringTree::subString(int from, int to) const {
 	return ConcatStringTree(newRoot, this->size);
 }
 
-void ConcatStringTree::clearParents(BSTNode* root) {
-	if (root != nullptr) {
+void ConcatStringTree::clearParents(BSTNode* root, BSTNode* delNode) {
+	if(root != nullptr){
+		root->parent_node->deleteNode(delNode);
 		if (root->parent_node->size() == 0) {
 			if (checkLeaf(root->left) && checkLeaf(root->right)) {
 				if (checkLeaf(root->left) && root->left->RCST == true && root->left == root->right) {
-					if (root->left->parent_node->size() == 1)
-						root->right = nullptr;
+						if (root->left->parent_node->size() == 1)
+							root->right = nullptr;
 				}
 			}
-			if (root->left != nullptr)
-				root->left->parent_node->deleteNode(root);
-			if (root->right != nullptr)
-				root->right->parent_node->deleteNode(root);
+			clearParents(root->left, root);
+			clearParents(root->right, root);
+			if (root->numRef == 0)
+				delete root;
 		}
-		clearParents(root->left);
-		clearParents(root->right);
-		if (root->parent_node->size() == 0 && root->numRef == 0) 
-			delete root; 
 	}
 }
 
-
 ConcatStringTree::~ConcatStringTree() {
 	if (root != nullptr) {
-		if (root->numRef == 0)
-			root->parent_node->deleteNode(root);
-		if (root->parent_node->size() == 0)
-			clearParents(root);
+		clearParents(root, root);
 	}
 }
 
@@ -291,7 +283,7 @@ ConcatStringTree::ParentsTree::AVLNode* ConcatStringTree::ParentsTree::maxValue(
 	return ptr;
 }
 
-ConcatStringTree::ParentsTree::AVLNode* ConcatStringTree::ParentsTree::remove(AVLNode* root, ConcatStringTree::BSTNode* node, bool &canDelete) {
+ConcatStringTree::ParentsTree::AVLNode* ConcatStringTree::ParentsTree::remove(AVLNode* root, ConcatStringTree::BSTNode* node, bool& canDelete) {
 	if (root == nullptr) {
 		canDelete = false;
 		return nullptr;
@@ -444,7 +436,7 @@ LitStringHash::LitStringHash(const HashConfig& hashConfig) {
 int LitStringHash::hashFunc(string s, int size, int p) {
 	int sum = 0;
 	for (int i = s.length() - 1; i >= 0; i--)
-		sum = (sum * p + (int)(s[i])) % size;
+		sum = ((sum * p) % size + ((int)(s[i])) % size) % size;
 	return sum;
 }
 
@@ -455,17 +447,21 @@ ConcatStringTree::BSTNode* LitStringHash::insertHash(string s) {
 		this->isDeleted = false;
 	}
 	int h_s = hashFunc(s, capacity, config.p);
-	int i = 1, idx = h_s;
-	for (int i = 0; i < capacity; i++) {
-		if (this->arr[i].isEmpty == false) {
-			if (this->arr[i].node->data == s) {
-				this->arr[i].node->numRef++;
-				return this->arr[i].node;
+	int i = 1, idx = h_s, tmp = h_s, j = 1;
+	while (j <= capacity) {
+		if(this->arr[tmp].isEmpty == false){
+			if(arr[tmp].node->data == s){
+				this->arr[tmp].node->numRef++;
+				return this->arr[tmp].node;
 			}
 		}
+		tmp = h_s + config.c1 * j + config.c2 * j * j;
+		tmp = tmp % capacity;
+		j++;
 	}
+
 	while (i <= capacity) {
-		if(this->arr[idx].isEmpty == true) {
+		if (this->arr[idx].isEmpty == true) {
 			this->arr[idx].node = new ConcatStringTree::BSTNode(s, 0);
 			ConcatStringTree::BSTNode* tmp_ptr = this->arr[idx].node;
 			this->arr[idx].node->numRef++;
@@ -481,7 +477,7 @@ ConcatStringTree::BSTNode* LitStringHash::insertHash(string s) {
 		idx = idx % capacity;
 		i++;
 	}
-	throw std::runtime_error("No possible slot");
+	return nullptr;
 }
 
 void LitStringHash::deleteHash(ConcatStringTree::BSTNode* node) {
@@ -508,24 +504,28 @@ void LitStringHash::deleteHash(ConcatStringTree::BSTNode* node) {
 
 void LitStringHash::reHash() { //fix this
 	int newCapacity = int(config.alpha * capacity);
-	HashItem* newHash = new HashItem[newCapacity];
+	HashItem* newHash = new HashItem[newCapacity]; bool inserted = false;
+	ConcatStringTree::BSTNode* tmp_ptr = arr[this->idx_last].node;
 	for (int i = 0; i < capacity; i++) {
 		if (arr[i].isEmpty == false) {
 			int h_s = hashFunc(arr[i].node->data, newCapacity, config.p);
 			int j = 1, idx = h_s;
-			while (newHash[idx].isEmpty == false) {
+			while (j <= newCapacity) {
+				if (newHash[idx].isEmpty == true) {
+					newHash[idx] = arr[i];
+					if (idx_last >= 0 && idx_last < capacity) {
+						if (newHash[idx].node == tmp_ptr)
+							idx_last = idx;
+					}
+					inserted = true;
+					break;
+				}
 				idx = h_s + config.c1 * j + config.c2 * j * j;
 				idx = idx % newCapacity;
 				j++;
-				if(j == newCapacity)
-					throw std::runtime_error("No possible slot");
 			}
-			//idx_last = idx;
-			newHash[idx] = arr[i];
-			if (idx_last >= 0 && idx_last < capacity) {
-				if (newHash[idx].node == arr[this->idx_last].node)
-					idx_last = idx;
-			}
+			if(inserted == false)
+				throw std::runtime_error("No possible slot");
 		}
 	}
 	capacity = newCapacity;
@@ -556,7 +556,7 @@ string LitStringHash::toString() const {
 LitStringHash::~LitStringHash() {
 	if (this->arr != nullptr) {
 		for (int i = 0; i < capacity; i++) {
-			if (arr[i].isEmpty == false)
+			if (arr[i].isEmpty == false) 
 				delete this->arr[i].node;
 		}
 		delete[] arr;
@@ -569,6 +569,8 @@ ReducedConcatStringTree::ReducedConcatStringTree(const char* s, LitStringHash*& 
 	stringstream ss(s); getline(ss, tmp);
 	this->litStringHash = litStringHash;
 	this->root = this->litStringHash->insertHash(tmp);
+	if(this->root == nullptr)
+		throw std::runtime_error("No possible slot");
 	this->size = 1;
 }
 
@@ -577,7 +579,7 @@ ReducedConcatStringTree ReducedConcatStringTree::concat(ReducedConcatStringTree&
 	newTree->lengthStr = otherS.root->lengthStr + this->root->lengthStr;
 	newTree->parent_node->insertNode(newTree);
 	newTree->left->parent_node->insertNode(newTree);
-	if(newTree->right != newTree->left)
+	if (newTree->right != newTree->left)
 		newTree->right->parent_node->insertNode(newTree);
 	return ReducedConcatStringTree(newTree, this->size + otherS.size + 1, this->litStringHash);
 }
@@ -599,6 +601,6 @@ ReducedConcatStringTree ReducedConcatStringTree::subString(int from, int to) {
 }
 
 ReducedConcatStringTree::~ReducedConcatStringTree() {
-	if (root->data != "") 
+	if (root->data != "")
 		this->litStringHash->deleteHash(root);
 }

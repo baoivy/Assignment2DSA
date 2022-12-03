@@ -1,4 +1,4 @@
-#include "ConcatStringTree.h" // input your ConcatStringTree.cpp directory, you only need this file
+#include "ConcatStringTree.cpp" // input your ConcatStringTree.cpp directory, you only need this file
 
 using namespace std;
 
@@ -6,14 +6,14 @@ const string dir_inp = "C:\\Users\\Bao\\source\\repos\\Assignment2DSA\\Assignmen
 const string dir_out = "C:\\Users\\Bao\\source\\repos\\Assignment2DSA\\Assignment2DSA\\output\\";
 const string dir_inp2 = "C:\\Users\\Bao\\source\\repos\\Assignment2DSA\\Assignment2DSA\\inputReduced\\";
 const string dir_out2 = "C:\\Users\\Bao\\source\\repos\\Assignment2DSA\\Assignment2DSA\\outputReduced\\";
-// input the directory where the ConcatStringTree_testcases folder located, use \\ for \
+// input the directory where the ConcatStringTree_testcases folder located, use \\ for 
 
 // --- NO NEED TO INCLUDE OTHER LIBRARY ---
-
-void readTestcase(int test)
-{
+void readTestcase(int test) {
     fstream inp(dir_inp + "test" + to_string(test) + ".txt", ios::in);
     fstream out(dir_out + "test" + to_string(test) + ".txt", ios::in);
+    if (!inp.is_open())
+        return;
     string line, exp_res;
     vector<ConcatStringTree*> CSTVector(300000, nullptr);
     vector<string> exp_answer, act_answer;
@@ -61,6 +61,7 @@ void readTestcase(int test)
                 {
                     act_res = e.what();
                 }
+                //cout << ID << endl;
             }
             else if (instruction.find("getParTreeSize ") != string::npos)
             {
@@ -233,7 +234,7 @@ void readTestcase(int test)
     }
 }
 
-void readTestcaseReduced(int test)
+void readTestcaseReduced(int test, int& count)
 {
     fstream inp(dir_inp2 + "testReduced" + to_string(test) + ".txt", ios::in);
     fstream out(dir_out2 + "testReduced" + to_string(test) + ".txt", ios::in);
@@ -273,6 +274,7 @@ void readTestcaseReduced(int test)
                         act_res = to_string(litStringHash->getLastInsertedIndex());
                         act_answer.push_back(act_res);
                     }
+                    //cout << id << endl;
                 }
                 else if (instruction == "delete")
                 {
@@ -478,6 +480,7 @@ void readTestcaseReduced(int test)
         }
     }
     if (act_answer == exp_answer) {
+        count++;
         cout << "Testcase " << test << " correct!\n";
     }
     else {
@@ -487,29 +490,34 @@ void readTestcaseReduced(int test)
         }
         else if (act_answer.size() < exp_answer.size()) {
             cout << "Did you miss something?\n";
-            // abort();
+            //abort();
         }
         for (int i = 0; i < (int)min(act_answer.size(), exp_answer.size()); i++)
         {
             if (act_answer[i] != exp_answer[i])
             {
                 cout << "Expected " << exp_answer[i] << ", got " << act_answer[i] << '\n';
-                // abort();
+                cout << i << endl;
+                //abort();
             }
         }
     }
 }
 
-int main() {
-    /*cout << "Check ConcatStringTree:\n";
+int main(int argc, char** argv) {
+    //_CrtSetDbgFlag(_CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF);
+    cout << "Check ConcatStringTree:\n";
     for (int i = 1; i <= 100; i++) {
         key = 1;
         readTestcase(i);
-    }*/
+    }
 
     cout << "Check ReducedConcatStringTree:\n";
-    for (int i = 35; i <= 35; i++) {
-        readTestcaseReduced(i);
+    int count = 0;
+    for(int i = 1; i <= 100; i++){
+        key = 1;
+        readTestcaseReduced(i, count);
     }
+    cout << count;
     return 0;
 }
